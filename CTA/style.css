@@ -4,6 +4,15 @@
     margin: 0 auto;
   }
 
+.hrm-titles {
+  font-weight: 800 !important;
+  text-transform: uppercase;
+}
+
+.hrm-text-centers-reverse{
+  text-align: left !important;
+}
+
 .cta-container{
     background-position: center center;
     background-attachment: fixed;

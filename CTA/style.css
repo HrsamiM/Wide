@@ -4,6 +4,38 @@
     margin: 0 auto;
   }
 
+.hrm-titles {
+  font-weight: 800 !important;
+  text-transform: uppercase;
+}
+
+.hrm-text-centers-reverse{
+  text-align: left !important;
+}
+
+p.subdes {
+  font-size: 25px;
+}
+
+button.hrm_btn_gnrl {
+    background-color: #ffffff00;
+    color: #18a7de;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 6px 30px;
+    border: 2px solid #18a7de;
+    border-radius: 32px;
+  }
+
+button.hrm_btn_slider:hover,
+button.hrm_btn_gnrl:hover{
+    background-color: #878e8f;
+    border: 2px solid #878e8f;
+    box-shadow: 10.9px 8.5px 6.5px rgba(0, 0, 0, 0.035), 87px 68px 52px rgba(0, 0, 0, 0.07);
+    color: #fff;
+}
+
 .cta-container{
     background-position: center center;
     background-attachment: fixed;

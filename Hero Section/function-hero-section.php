@@ -15,7 +15,7 @@
       echo'<header class="hero-section eclip-shape" style="background-image: url('.esc_url($imageBnnr).');">';
       echo '<div class="container content-box">';
       echo '<div class="row">';
-			echo '<div class="col-12">';
+      echo '<div class="col-12">';
       echo '<h1 class="titleslider display-4">'.esc_html($headingTitle).'</h1>';
       do_shortcode('[breadcrumbs]');
       echo '</div>';

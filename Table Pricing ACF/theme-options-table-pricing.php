@@ -49,5 +49,6 @@ function themeop_table_pricing( $atts ){
  }
  add_shortcode('hrm_shrt_tb_pricing','themeop_table_pricing');
   //END FUNCTION TABLE PRICING
+  // [hrm_global_tb_pricing category="internet-global-pricing"]
   //
   ?>

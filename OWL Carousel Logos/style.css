@@ -1,0 +1,45 @@
+/***********************************
+********  OWL CAROUSEL  ************
+***********************************/
+#owlid{
+    padding: 20px 20px;
+}
+
+.owl-item > div {
+    cursor: pointer;
+    margin: 8% 10%;
+    transition: margin 0.4s ease;
+    opacity: .40;
+    border-radius: 25px;
+    box-shadow: 0px 12px 18px -6px rgb(0 0 0 / 30%);
+    width: 90%;
+    height: 300px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.owl-item.center > div {
+    cursor: auto;
+    margin: 0;
+    opacity: 1;
+}
+
+.owl-item:not(.center) > div:hover {
+    opacity: .40;
+}
+
+.container{
+    padding: 50px 0px;
+}
+
+.lkexit{
+    display: table-cell;
+    vertical-align: middle !important;
+}
+
+
+@media only screen and (max-width: 900px) and (min-width: 767px){
+    .owl-item > div{
+        height: 200px;
+    }
+}
